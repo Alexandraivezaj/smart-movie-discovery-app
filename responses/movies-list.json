@@ -1,0 +1,6 @@
+{
+  "results": [
+    { "id": "1", "title": "Interstellar", "genre": "Sci-Fi" },
+    { "id": "2", "title": "Taken", "genre": "Action" }
+  ]
+}

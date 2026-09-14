@@ -1,0 +1,14 @@
+{
+  "name": "csi4160demo",
+  "version": "1.0.0",
+  "description": "Smart Movie Discovery Platform API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^4.21.2",
+    "openai": "^6.32.0"
+  }
+}

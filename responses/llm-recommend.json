@@ -1,0 +1,14 @@
+{
+  "results": [
+    {
+      "movieId": "1",
+      "title": "Interstellar",
+      "reason": "Matches emotional sci-fi and space themes"
+    },
+    {
+      "movieId": "4",
+      "title": "Ad Astra",
+      "reason": "Similar tone and exploration themes"
+    }
+  ]
+}

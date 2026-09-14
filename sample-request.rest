@@ -1,0 +1,84 @@
+### REGISTER USER
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "password": "mypassword123"
+}
+
+###
+
+### LOGIN USER
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "password": "mypassword123"
+}
+
+###
+
+### GET CURRENT USER
+GET http://localhost:3000/auth/me
+Authorization: Bearer <token>
+
+###
+
+### GET ALL MOVIES
+GET http://localhost:3000/movies
+
+###
+
+### GET MOVIE BY ID
+GET http://localhost:3000/movies/1
+
+###
+
+### CREATE MOVIE
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "title": "Interstellar",
+  "genre": "Sci-Fi",
+  "releaseYear": 2014,
+  "rating": 8.6
+}
+
+###
+
+### UPDATE MOVIE
+PUT http://localhost:3000/movies/1
+Content-Type: application/json
+
+{
+  "rating": 9.0
+}
+
+###
+
+### DELETE MOVIE
+DELETE http://localhost:3000/movies/1
+
+###
+
+### LLM SEARCH
+POST http://localhost:3000/llm/search
+Content-Type: application/json
+
+{
+  "query": "funny sci-fi movies with robots"
+}
+
+###
+
+### LLM RECOMMEND
+POST http://localhost:3000/llm/recommend
+Content-Type: application/json
+
+{
+  "userId": "a1b2c3d4",
+  "hint": "I like emotional sci-fi movies about space exploration"
+}
